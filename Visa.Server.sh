@@ -11,4 +11,4 @@ do
      mail -s "Alert: Almost out of disk space $usep%" ouedard18@gmail.com
   fi
 done
-ech "All done"
+echo "All done"
