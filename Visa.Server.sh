@@ -1,5 +1,6 @@
 #!/bin/sh
 THRESHOLD=85
+#New modification
 df -H | grep -vE '^Filesystem|tmpfs|cdrom' | awk '{ print $5 " " $1 }' | while read output;
 do
   echo $output
@@ -10,3 +11,4 @@ do
      mail -s "Alert: Almost out of disk space $usep%" ouedard18@gmail.com
   fi
 done
+ech "All done"
