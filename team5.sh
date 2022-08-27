@@ -1,2 +1,2 @@
 Date
-echo "user name"
+echo "you are connected as:" `whoami`
