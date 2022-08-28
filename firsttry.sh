@@ -6,4 +6,6 @@
 				whoami
 				echo "and I approve this message"
 				Date
+echo "All done"
+
 
