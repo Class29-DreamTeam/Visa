@@ -8,4 +8,5 @@
 				Date
 echo "All done"
 
+echo "All members present"
 
